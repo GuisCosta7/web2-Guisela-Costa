@@ -1,0 +1,23 @@
+.contenedor{
+    background-color: rgb(117, 68, 107);
+    padding: 5px;
+    display: grid;
+    grid-template: 5fr 1fr;
+    grid-template-areas: "header    header"
+                        "nav          nav"
+                         "contenido     ads"
+                         "foonter      foonter";
+}
+.contenedor .header{
+    background-color: rgb(172, 109, 167);
+    grid-area: header;
+}
+.contenedor .nav{
+    background-color: rgb(186, 20, 144);
+    grid-area: nav;
+
+}
+.contenedor .contenido{
+    background-color: rgb(87, 26, 109);
+    grid-area: contenido;
+}
